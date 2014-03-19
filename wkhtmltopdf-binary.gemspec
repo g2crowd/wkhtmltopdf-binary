@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = ''
 
   s.required_ruby_version = '>= 1.8.7'
-  s.required_rubygems_version = ">= 1.3.6"
+  s.required_rubygems_version = '>= 1.3.6'
 
   s.author = '- Research Information Systems, The University of Iowa'
   s.homepage = ''
@@ -17,7 +17,5 @@ Gem::Specification.new do |s|
 
   s.files = %w(
     lib/wkhtmltopdf-binary.rb bin/wkhtmltopdf
-    libexec/wkhtmltopdf-darwin-x86
-    libexec/wkhtmltopdf-linux-amd64
-    libexec/wkhtmltopdf-linux-x86)
+    libexec/wkhtmltopdf-darwin-x86)
 end
